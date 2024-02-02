@@ -1,6 +1,6 @@
 sudo: required
 services:
-  - docker #tells the service
+  - docker #tell the service to download docker
 
 before_install:
   - docker build -t tapanmjo528/docker-react -f Dockerfile.dev .
